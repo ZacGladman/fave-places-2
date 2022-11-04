@@ -34,11 +34,7 @@ function MakePlaceEntry({
         <big>{entryBody}</big>
       </p>
       <div>
-        <p>
-
-
-          
-        </p>
+        <p></p>
       </div>
     </>
   );
