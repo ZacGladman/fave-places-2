@@ -1,0 +1,11 @@
+* {
+    text-align: center;
+    font-family: Verdana, sans-serif
+}
+
+h1 {
+    border-left-style: solid;
+    border-left-width: 10pc;
+    border-left-color: rgb(6, 31, 255);
+    background-color: rgba(6, 31, 255, 0.479);
+}

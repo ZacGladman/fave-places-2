@@ -27,10 +27,12 @@ function MakePlaceEntry({
               {city}, {country} (<a href={mapLink}>map link</a>)
             </b>
           </h3>
-          <img src={image} alt="place" />
+          <img src={image} alt="place" width="40%" height="auto" />
         </div>
       </section>
-      <p>{entryBody}</p>
+      <p>
+        <big>{entryBody}</big>
+      </p>
       <div>
         <p>
           ______________________________________________________________________________________________________________________
