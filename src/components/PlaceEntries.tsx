@@ -4,52 +4,52 @@ function PlaceEntries(): JSX.Element {
   return (
     <section>
       <div>
-      <MakePlaceEntry
-        entryTitle={"Sacré-Cœur de Montmartre"}
-        city={"Paris"}
-        country={"France"}
-        mapLink={
-          "https://www.google.com/maps/place/Sacr%C3%A9-C%C5%93ur/@48.8867045,2.3386196,17z/data=!3m1!4b1!4m6!3m5!1s0x47e66e4334868de3:0xcfc3870abe2b8519!8m2!3d48.8867046!4d2.3431043!16s%2Fg%2F1tdm30l7"
-        }
-        image={
-          "https://www.thetrainline.com/cms/media/4036/sacre-coeur-paris.jpg?mode=crop&width=660&height=440&quality=70"
-        }
-        entryBody={
-          "I love the architectural style, and how it stands gloriously above my favourite city in the world, Paris. It has also been featured in some great films such as The 400 Blows and Amelie."
-        }
-      />
+        <MakePlaceEntry
+          entryTitle={"Sacré-Cœur de Montmartre"}
+          city={"Paris"}
+          country={"France"}
+          mapLink={
+            "https://www.google.com/maps/place/Sacr%C3%A9-C%C5%93ur/@48.8867045,2.3386196,17z/data=!3m1!4b1!4m6!3m5!1s0x47e66e4334868de3:0xcfc3870abe2b8519!8m2!3d48.8867046!4d2.3431043!16s%2Fg%2F1tdm30l7"
+          }
+          image={
+            "https://www.thetrainline.com/cms/media/4036/sacre-coeur-paris.jpg?mode=crop&width=660&height=440&quality=70"
+          }
+          entryBody={
+            "I love the architectural style, and how it stands gloriously above my favourite city in the world, Paris. It has also been featured in some great films such as The 400 Blows and Amelie."
+          }
+        />
       </div>
       <div>
-      <MakePlaceEntry
-        entryTitle={"Coe Fen"}
-        city={"Cambridge"}
-        country={"UK"}
-        mapLink={
-          "https://www.google.com/maps/place/Coe+Fen,+Cambridge/@52.1999898,0.114662,17z/data=!4m15!1m8!3m7!1s0x47d85d89f32a012d:0x63a320e1a35e3d21!2sCambridge!3b1!8m2!3d52.1950788!4d0.1312729!16zL20vMDk3OHI!3m5!1s0x47d870a3b0cfec13:0x511e20416a9d974a!8m2!3d52.1984739!4d0.1165978!16s%2Fm%2F07kb8w3?hl=en-GB"
-        }
-        image={
-          "https://s0.geograph.org.uk/geophotos/03/99/67/3996781_f31f5ea8.jpg"
-        }
-        entryBody={
-          "Just incredibly beautiful. Weeping willows, punts on the river and cows roaming about everywhere 😄"
-        }
-      />
+        <MakePlaceEntry
+          entryTitle={"Coe Fen"}
+          city={"Cambridge"}
+          country={"UK"}
+          mapLink={
+            "https://www.google.com/maps/place/Coe+Fen,+Cambridge/@52.1999898,0.114662,17z/data=!4m15!1m8!3m7!1s0x47d85d89f32a012d:0x63a320e1a35e3d21!2sCambridge!3b1!8m2!3d52.1950788!4d0.1312729!16zL20vMDk3OHI!3m5!1s0x47d870a3b0cfec13:0x511e20416a9d974a!8m2!3d52.1984739!4d0.1165978!16s%2Fm%2F07kb8w3?hl=en-GB"
+          }
+          image={
+            "https://s0.geograph.org.uk/geophotos/03/99/67/3996781_f31f5ea8.jpg"
+          }
+          entryBody={
+            "Just incredibly beautiful. Weeping willows, punts on the river and cows roaming about everywhere 😄"
+          }
+        />
       </div>
       <div>
-      <MakePlaceEntry
-        entryTitle={"Cortona"}
-        city={"Tuscany"}
-        country={"Italy"}
-        mapLink={
-          "https://www.google.com/maps/place/52044+Cortona,+Province+of+Arezzo,+Italy/@43.2747783,11.9849183,18z/data=!4m6!3m5!1s0x132bf97881a782d7:0x27cf7fa1dc70734e!8m2!3d43.2750634!4d11.98512!16zL20vMDI3ZzI1?hl=en-GB"
-        }
-        image={
-          "https://upload.wikimedia.org/wikipedia/commons/b/bf/Cortona-vista01.jpg"
-        }
-        entryBody={
-          "Adorable hillside town in Tuscany. I love Tuscan architecture so much, and this is an amazing example of it. Feels like you're in a film (there's actually a Hollywood film set in Cortona (because of this vibe probably))."
-        }
-      />
+        <MakePlaceEntry
+          entryTitle={"Cortona"}
+          city={"Tuscany"}
+          country={"Italy"}
+          mapLink={
+            "https://www.google.com/maps/place/52044+Cortona,+Province+of+Arezzo,+Italy/@43.2747783,11.9849183,18z/data=!4m6!3m5!1s0x132bf97881a782d7:0x27cf7fa1dc70734e!8m2!3d43.2750634!4d11.98512!16zL20vMDI3ZzI1?hl=en-GB"
+          }
+          image={
+            "https://upload.wikimedia.org/wikipedia/commons/b/bf/Cortona-vista01.jpg"
+          }
+          entryBody={
+            "Adorable hillside town in Tuscany. I love Tuscan architecture so much, and this is an amazing example of it. Feels like you're in a film (there's actually a Hollywood film set in Cortona (because of this vibe probably))."
+          }
+        />
       </div>
       <div>
         <MakePlaceEntry

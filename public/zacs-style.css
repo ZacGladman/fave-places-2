@@ -15,8 +15,8 @@ h1 {
     background-color:rgba(211, 211, 211, 0.26);
     padding-top: 0.5% ;
     padding-bottom: 2%;
-    border-bottom-style:outset
-
+    border-bottom-style:outset;
+    border-top-style:inset;
 }
 
 .entryBody {
