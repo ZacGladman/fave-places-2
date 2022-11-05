@@ -31,7 +31,7 @@ function MakePlaceEntry({
               )
             </b>
           </h3>
-          <img src={image} alt="place" width="40%" height="auto" />
+          <img src={image} alt="place" width="80%" height="auto" />
         </div>
         <p className="entryBody">
           <big>{entryBody}</big>
