@@ -17,7 +17,7 @@ function MakePlaceEntry({
 }: PlaceEntryProps): JSX.Element {
   return (
     <>
-      <section>
+      <section className="entry">
         <h2>
           <b>{entryTitle}</b>
         </h2>
@@ -29,13 +29,13 @@ function MakePlaceEntry({
           </h3>
           <img src={image} alt="place" width="40%" height="auto" />
         </div>
+        <p className="entryBody">
+          <big>{entryBody}</big>
+        </p>
       </section>
-      <p>
-        <big>{entryBody}</big>
-      </p>
-      <div>
-        <p></p>
-      </div>
+      <footer>
+        <p>🗺️ 🗺️ 🗺️ 🗺️</p>
+      </footer>
     </>
   );
 }

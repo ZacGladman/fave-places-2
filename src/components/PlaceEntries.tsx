@@ -3,6 +3,7 @@ import MakePlaceEntry from "./PlaceEntryItem";
 function PlaceEntries(): JSX.Element {
   return (
     <section>
+      <div>
       <MakePlaceEntry
         entryTitle={"Sacré-Cœur de Montmartre"}
         city={"Paris"}
@@ -14,9 +15,11 @@ function PlaceEntries(): JSX.Element {
           "https://www.thetrainline.com/cms/media/4036/sacre-coeur-paris.jpg?mode=crop&width=660&height=440&quality=70"
         }
         entryBody={
-          "I love the architectural style, and how it stands gloriously above my favourite city in the world, Paris. It has also been featured in some iconic films as well as a favourite of mine, The 400 Blows."
+          "I love the architectural style, and how it stands gloriously above my favourite city in the world, Paris. It has also been featured in some great films such as The 400 Blows and Amelie."
         }
       />
+      </div>
+      <div>
       <MakePlaceEntry
         entryTitle={"Coe Fen"}
         city={"Cambridge"}
@@ -28,9 +31,11 @@ function PlaceEntries(): JSX.Element {
           "https://s0.geograph.org.uk/geophotos/03/99/67/3996781_f31f5ea8.jpg"
         }
         entryBody={
-          "Just incredibly beautiful. Weeping willows, punts on the river, oh and cows roaming about everywhere!"
+          "Just incredibly beautiful. Weeping willows, punts on the river and cows roaming about everywhere 😄"
         }
       />
+      </div>
+      <div>
       <MakePlaceEntry
         entryTitle={"Cortona"}
         city={"Tuscany"}
@@ -42,23 +47,26 @@ function PlaceEntries(): JSX.Element {
           "https://upload.wikimedia.org/wikipedia/commons/b/bf/Cortona-vista01.jpg"
         }
         entryBody={
-          "Adorable hillside town in Tuscany. I love Tuscan architecture so much, and this is an amazing example of it. Feels like you're in a film (there's actually a Hollywood film set in Cortona (because of this vibe probably)). Also, I've been here a couple of times with my closest friends so it's super nostalgic for me."
+          "Adorable hillside town in Tuscany. I love Tuscan architecture so much, and this is an amazing example of it. Feels like you're in a film (there's actually a Hollywood film set in Cortona (because of this vibe probably))."
         }
       />
-      <MakePlaceEntry
-        entryTitle={"Sainte-Maxime"}
-        city={"Côte d'Azur"}
-        country={"France"}
-        mapLink={
-          "https://www.google.com/maps/place/83120+Sainte-Maxime,+France/@43.3582996,6.470374,12z/data=!3m1!4b1!4m6!3m5!1s0x12ceb99a895298d1:0x40819a5fd8fc990!8m2!3d43.310184!4d6.640482!16zL20vMGc2cjFu?hl=en-GB"
-        }
-        image={
-          "https://img.marinas.com/v2/17af349c3e869035f1c8867687efbfbe13d589d4d8b513b074f9d0d9a5ebbea0.jpg"
-        }
-        entryBody={
-          "Used to come here in the Summer with my family, so a super nostalgic place. Plus, the South of France is stunning. And it reminds me of Mr Bean's Holiday lol"
-        }
-      />
+      </div>
+      <div>
+        <MakePlaceEntry
+          entryTitle={"Sainte-Maxime"}
+          city={"Côte d'Azur"}
+          country={"France"}
+          mapLink={
+            "https://www.google.com/maps/place/83120+Sainte-Maxime,+France/@43.3582996,6.470374,12z/data=!3m1!4b1!4m6!3m5!1s0x12ceb99a895298d1:0x40819a5fd8fc990!8m2!3d43.310184!4d6.640482!16zL20vMGc2cjFu?hl=en-GB"
+          }
+          image={
+            "https://img.marinas.com/v2/17af349c3e869035f1c8867687efbfbe13d589d4d8b513b074f9d0d9a5ebbea0.jpg"
+          }
+          entryBody={
+            "Used to come here in the Summer with my family, so a super nostalgic place. Plus, the South of France is stunning. And it reminds me of Mr Bean's Holiday lol"
+          }
+        />
+      </div>
     </section>
   );
 }

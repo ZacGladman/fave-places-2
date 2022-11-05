@@ -6,7 +6,20 @@
 h1 {
     text-align: center;
     border-left-style: solid;
-    border-left-width: 5pc;
+    border-left-width: 1pc;
     border-left-color: rgb(6, 31, 255);
     background-color: rgba(6, 31, 255, 0.479);
+}
+
+.entry {
+    background-color:rgba(211, 211, 211, 0.26);
+    padding-top: 0.5% ;
+    padding-bottom: 2%;
+    border-bottom-style:outset
+
+}
+
+.entryBody {
+    padding-left: 5%;
+    padding-right: 5%;
 }
