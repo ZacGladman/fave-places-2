@@ -15,7 +15,7 @@ function PlaceEntries(): JSX.Element {
             "https://www.thetrainline.com/cms/media/4036/sacre-coeur-paris.jpg?mode=crop&width=660&height=440&quality=70"
           }
           entryBody={
-            "I love the architectural style, and how it stands gloriously above my favourite city in the world, Paris. It has also been featured in some great films such as The 400 Blows and Amelie."
+            "I love the architectural style, and how it stands above my favourite city in the world, Paris. It has also been featured in some great films such as The 400 Blows and Amelie."
           }
         />
       </div>
@@ -31,7 +31,7 @@ function PlaceEntries(): JSX.Element {
             "https://s0.geograph.org.uk/geophotos/03/99/67/3996781_f31f5ea8.jpg"
           }
           entryBody={
-            "Just incredibly beautiful. Weeping willows, punts on the river and cows roaming about everywhere 😄"
+            "Weeping willows, punts on the river and cows roaming about everywhere 😄"
           }
         />
       </div>
@@ -47,7 +47,7 @@ function PlaceEntries(): JSX.Element {
             "https://upload.wikimedia.org/wikipedia/commons/b/bf/Cortona-vista01.jpg"
           }
           entryBody={
-            "Adorable hillside town in Tuscany. I love Tuscan architecture so much, and this is an amazing example of it. Feels like you're in a film (there's actually a Hollywood film set in Cortona (because of this vibe probably))."
+            "Beautiful hillside town in Tuscany. I love Tuscan architecture so much, and this is an amazing example of it."
           }
         />
       </div>
@@ -62,9 +62,7 @@ function PlaceEntries(): JSX.Element {
           image={
             "https://img.marinas.com/v2/17af349c3e869035f1c8867687efbfbe13d589d4d8b513b074f9d0d9a5ebbea0.jpg"
           }
-          entryBody={
-            "Used to come here in the Summer with my family, so a super nostalgic place. Plus, the South of France is stunning. And it reminds me of Mr Bean's Holiday lol"
-          }
+          entryBody={"It reminds me of Mr Bean's Holiday"}
         />
       </div>
     </section>
